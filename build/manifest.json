@@ -1,0 +1,37 @@
+{
+  "package": "com.kenrys.app",
+  "name": "VibrateTest",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "icon": "/Common/logo.png",
+  "minPlatformVersion": 1000,
+  "features": [
+    {
+      "name": "system.sensor"
+    },
+    {
+      "name": "system.vibrator"
+    }
+  ],
+  "permissions": [
+    {
+      "origin": "*"
+    }
+  ],
+  "config": {},
+  "router": {
+    "entry": "Hello",
+    "pages": {
+      "Hello": {
+        "component": "hello"
+      }
+    }
+  },
+  "display": {
+    "pages": {
+      "Hello": {
+        "titleBarText": "TitleBar"
+      }
+    }
+  }
+}
